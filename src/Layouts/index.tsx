@@ -49,8 +49,12 @@ const LayoutPage: React.FC<{ pageContext: { layout: string } }> = ({ children, p
               <LayoutColumns>
                 <LayoutColumn className="main-content">{children}</LayoutColumn>
               </LayoutColumns>
-              {pageContext.layout !== 'auth' && <LayoutFooter>The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it. - Mark Mark Weiser
-</LayoutFooter>}
+              {pageContext.layout !== 'auth' && (
+                <LayoutFooter>
+                  The most profound technologies are those that disappear. They weave themselves into the fabric of
+                  everyday life until they are indistinguishable from it. - Mark Mark Weiser
+                </LayoutFooter>
+              )}
             </LayoutContent>
           </LayoutContainer>
         </Layout>
