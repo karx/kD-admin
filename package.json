@@ -46,10 +46,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AhmedElywa/oah-admin"
+    "url": "https://github.com/karx/kD-admin"
   },
   "bugs": {
-    "url": "https://github.com/AhmedElywa/oah-admin/issues"
+    "url": "https://github.com/Akarx/kD-admin/issues"
   },
   "devDependencies": {
     "@types/node": "^13.1.2",
